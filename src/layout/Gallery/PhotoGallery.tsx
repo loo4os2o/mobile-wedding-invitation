@@ -8,6 +8,7 @@ const PhotoGallery = () => {
     objectFit: 'contain',
     width: '100px',
     height: '150px',
+    // borderRadius: "8px",
   };
 
   return (

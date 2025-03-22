@@ -1,10 +1,10 @@
 import styled from '@emotion/styled';
-import data from 'data.json';
+// import data from 'data.json';
 import mainImg from '@/assets/images/01. 20 BGH_0443-3.jpg'
 import '@/components/opening.css';
 
 const Main = () => {
-  const { greeting } = data;
+  // const { greeting } = data;
   return (
     <div>
       <MainImg src={mainImg} />
@@ -19,14 +19,14 @@ const Main = () => {
         &lt;사랑에 답함&gt;, 나태주
       </SubTitle>
 
-      <MainTitle>{greeting.title}</MainTitle>
+      {/* <MainTitle>{greeting.title}</MainTitle>
 
       <SubTitle>
         여 름이 시작되는 6월, 평생을 함께 하기로 약속합니다.<br/>
         진 신 어린 축복 속에 하루 하루 행복하게 살겠습니다.<br/>
         경 건하고 정성스럽게 준비한 예식에 소중한 여러분을 초대합니다.<br/>
         기 쁜 마음으로 축하해 주시면 감사하겠습니다.<br/>
-      </SubTitle>
+      </SubTitle> */}
 
     </div>
   );
@@ -42,13 +42,13 @@ const MainImg = styled.img`
   padding-top: 20px;
 `;
 
-const MainTitle = styled.p`
-  font-family: HSSanTokki20-Regular, serif;
-  font-size: 2rem;
-  color: #2F2120;
-  line-height: 120%;
-  white-space: pre-line;
-`;
+// const MainTitle = styled.p`
+//   font-family: HSSanTokki20-Regular, serif;
+//   font-size: 2rem;
+//   color: #2F2120;
+//   line-height: 120%;
+//   white-space: pre-line;
+// `;
 
 const SubTitle = styled.p`
   font-size: 1.1rem;

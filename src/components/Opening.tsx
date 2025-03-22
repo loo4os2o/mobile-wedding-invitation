@@ -2,16 +2,14 @@ import { useEffect } from 'react';
 import '@/components/opening.css';
 import { Scene, SceneOptions } from 'react-scenejs';
 import Shape from '@/components/Shape';
-// import data from 'data.json';
 
-const Opening : React.FC = () => {
-  // const { greeting } = data;
+const Opening = () => {
 
   useEffect(() => {
     const motionElement = document.getElementById('motion');
     const logoElement = document.getElementById('logo');
     if (motionElement) {
-      console.log(motionElement);
+      // console.log(motionElement);
       motionElement.style.opacity = '1';
       setTimeout(() => {
         motionElement.style.opacity = '0';
@@ -39,62 +37,63 @@ const Opening : React.FC = () => {
         options: { delay: 1 },
       },
       ".circle2": {
-        0: {"border-width": "200px", "transform": "scale(0)",},
-        0.3: {opacity: 1,},
-        0.9: {"border-width": "0px", "transform": "scale(1)", "opacity": 0,},
-        2: 1, 
-        options: {delay: 1.6,},
+        0: { "border-width": "200px", "transform": "scale(0)", },
+        0.3: { opacity: 1, },
+        0.9: { "border-width": "0px", "transform": "scale(1)", "opacity": 0, },
+        2: 1,
+        options: { delay: 1.6, },
       },
       ".rectangle": {
-        0: {opacity: 0, transform: "translate(-50%, -50%) rotate(30deg) translate(0px) scale(0.3)",},
-        0.1: {opacity: 1,},
-        1: {opacity: 1,},
-        1.5: {transform: "rotate(0deg) translate(-100px) scale(1)", opacity: 0,},
-        options: {delay: 2,},
+        0: { opacity: 0, transform: "translate(-50%, -50%) rotate(30deg) translate(0px) scale(0.3)", },
+        0.1: { opacity: 1, },
+        1: { opacity: 1, },
+        1.5: { transform: "rotate(0deg) translate(-100px) scale(1)", opacity: 0, },
+        options: { delay: 2, },
       },
       ".star5": {
-        0: {opacity: 0, transform: "translate(-50%, -50%) translate(0px, 0px) rotate(0deg) scale(0.3)",},
-        0.1: {opacity: 1,},
-        1: {opacity: 1,},
-        1.5: {transform: "rotate(150deg) translate(-5px, -98px) scale(1)", opacity: 0,},
-        options: {delay: 2,},
+        0: { opacity: 0, transform: "translate(-50%, -50%) translate(0px, 0px) rotate(0deg) scale(0.3)", },
+        0.1: { opacity: 1, },
+        1: { opacity: 1, },
+        1.5: { transform: "rotate(150deg) translate(-5px, -98px) scale(1)", opacity: 0, },
+        options: { delay: 2, },
       },
       ".circle3": {
-        0: {opacity: 0, transform: "translate(-50%, -50%) translate(0px, 0px) rotate(0deg) scale(0.3)",},
-        0.1: {opacity: 1,},
-        1: {opacity: 1,},
-        1.5: {transform: "rotate(150deg) translate(95px, -40px) scale(1)", opacity: 0,},
-        options: {delay: 2,},
+        0: { opacity: 0, transform: "translate(-50%, -50%) translate(0px, 0px) rotate(0deg) scale(0.3)", },
+        0.1: { opacity: 1, },
+        1: { opacity: 1, },
+        1.5: { transform: "rotate(150deg) translate(95px, -40px) scale(1)", opacity: 0, },
+        options: { delay: 2, },
       },
       ".polygon6": {
-        0: {opacity: 0, transform: "translate(-50%, -50%) translate(0px, 0px) rotate(0deg) scale(0.3)",},
-        0.1: {opacity: 1,},
-        1: {opacity: 1,},
-        1.5: {transform: "rotate(150deg) translate(75px, 75px) scale(1)", opacity: 0,},
-        options: {delay: 2,},
+        0: { opacity: 0, transform: "translate(-50%, -50%) translate(0px, 0px) rotate(0deg) scale(0.3)", },
+        0.1: { opacity: 1, },
+        1: { opacity: 1, },
+        1.5: { transform: "rotate(150deg) translate(75px, 75px) scale(1)", opacity: 0, },
+        options: { delay: 2, },
       },
       ".triangle": {
-        0: {opacity: 0, transform: "translate(-50%, -50%) translate(0px, 0px) rotate(0deg) scale(0.3)",},
-        0.1: {opacity: 1,},
-        1: {opacity: 1,},
-        1.5: {transform: "rotate(-150deg) translate(-40px, 90px) scale(1)", opacity: 0,},
-        options: {delay: 2,},
+        0: { opacity: 0, transform: "translate(-50%, -50%) translate(0px, 0px) rotate(0deg) scale(0.3)", },
+        0.1: { opacity: 1, },
+        1: { opacity: 1, },
+        1.5: { transform: "rotate(-150deg) translate(-40px, 90px) scale(1)", opacity: 0, },
+        options: { delay: 2, },
       },
-      ".d-back": (i: number) => ({transform: {scaleX: [0, 1],},
-        options: {duration: 1, delay: 2.8 + i * 0.2,},
+      ".d-back": (i: number) => ({
+        transform: { scaleX: [0, 1], },
+        options: { duration: 1, delay: 2.8 + i * 0.2, },
       }),
       ".character span": (i: number) => ({
-        0: {transform: "translate(-100%)",},
-        1: {transform: "translate(0%)",},
-        options: {delay: 3.1 + i * 0.2,},
+        0: { transform: "translate(-100%)", },
+        1: { transform: "translate(0%)", },
+        options: { delay: 3.1 + i * 0.2, },
       }),
       ".glitter": (i: number) => ({
-        0: {width: "0px", transform: {rotate: `${360 / 8 * i}deg`, translate: "0px", scaleX: 1,}, opacity: 0,},
-        0.5: {width: "50px", opacity: 1,},
-        1: {width: "0px", transform: { translate: "100px", scaleX: 0,}, opacity: 0,},
-        options: {delay: 1,},
+        0: { width: "0px", transform: { rotate: `${360 / 8 * i}deg`, translate: "0px", scaleX: 1, }, opacity: 0, },
+        0.5: { width: "50px", opacity: 1, },
+        1: { width: "0px", transform: { translate: "100px", scaleX: 0, }, opacity: 0, },
+        options: { delay: 1, },
       }),
-    } as Record<string, any>, {
+      } as Record<string, any>, {
       easing: "ease-out",
       selector: true,
       iterationCount: "infinite",

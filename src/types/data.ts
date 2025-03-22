@@ -52,3 +52,7 @@ export interface ILocationInfo {
   title: string;
   desc: string;
 }
+
+export interface ImportMetaEnv {
+  VITE_APP_NAVERMAPS_CLIENT_ID: string;
+}

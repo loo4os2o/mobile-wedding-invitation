@@ -27,8 +27,18 @@ export const Paragraph = styled.p`
   white-space: pre-line;
 `;
 
+// export const Caption = styled.p<{ textAlign?: string }>`
+//   font-weight: 200;
+//   text-align: ${(props) => (props.textAlign ? props.textAlign : 'start')};
+//   white-space: pre-line;
+// `;
+
 export const Caption = styled.p<{ textAlign?: string }>`
-  font-weight: 200;
+  font-family: "NEXON Lv1 Gothic OTF", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  color: #4f4f4f;
   text-align: ${(props) => (props.textAlign ? props.textAlign : 'start')};
   white-space: pre-line;
 `;
