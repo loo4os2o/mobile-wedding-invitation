@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 const Container = styled.div`
   /* 테두리의 초기 값 설정 */
   // border: 30px solid transparent;
-  border: 1px solid red;
+  // border: 1px solid red;
   
   /* 이미지 경로 설정 */
   // border-image-source: url('/background.png'); 

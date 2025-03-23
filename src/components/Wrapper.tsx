@@ -26,7 +26,7 @@ const Wrapper = styled.section`
   width: 100%;
   // height: 100vh;
   box-sizing: border-box;
-  border: 1px solid blue;
+  // border: 1px solid blue;
 
   &.frame-in {
     animation: ${frameInAnimation} 2s forwards;
