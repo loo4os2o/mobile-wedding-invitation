@@ -18,6 +18,7 @@ const PhotoGallery = () => {
           display: 'grid',
           gridTemplateColumns: 'repeat(3, 0fr)',
           gridGap: 2,
+          paddingBottom: "30px",
         }}>
         {images.map((image, index) => {
           return (

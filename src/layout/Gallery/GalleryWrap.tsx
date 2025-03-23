@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import styled from '@emotion/styled';
 import PhotoGallery from './PhotoGallery.tsx';
 import preVideo from '@/assets/video/preVideo.mp4';
@@ -6,25 +6,43 @@ import { Heading1 } from '@/components/Text.tsx';
 
 const GalleryWrap = () => {
   const [isMoreView, setIsMoreView] = useState(false);
+  const galleryRef = useRef(null);
 
   const onClickImageMoreViewButton = () => {
     setIsMoreView(!isMoreView);
+    
+    if (galleryRef.current) {
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
+      const elementPosition = galleryRef.current.getBoundingClientRect().top + window.scrollY;
+      const offsetPosition = elementPosition - 120;
+
+      window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+      });
+    }
   };
 
   return (
     <>
       <ContentsWrap>
-        <ImageMoreWrap isMoreView={isMoreView}>
-          {!isMoreView && <WhiteGradientOverlay />}
-          <PhotoGallery />
-        </ImageMoreWrap>
-        {!isMoreView && (
-          <PlusButton onClick={onClickImageMoreViewButton}>더보기</PlusButton>
-        )}
+        <div ref={galleryRef}>
+          <ImageMoreWrap isMoreView={isMoreView}>
+            {!isMoreView && <WhiteGradientOverlay />}
+            <PhotoGallery />
+          </ImageMoreWrap>
+          {/* {!isMoreView && (
+            <PlusButton onClick={onClickImageMoreViewButton}>더보기</PlusButton>
+          )} */}
+          <PlusButton onClick={onClickImageMoreViewButton}>
+            {isMoreView ? '접기' : '더보기'}
+          </PlusButton>
+        </div>
       </ContentsWrap>
-    
+        
+      {/* 동영상 */}
       <div style={{ margin: "30px 0 40px 0" }}>
-        <Heading1>Movie</Heading1>
+        <Heading1 className='pb-20'>Movie</Heading1>
         <video width="100%" controls>
           <source src={preVideo} type="video/mp4" />
         </video>

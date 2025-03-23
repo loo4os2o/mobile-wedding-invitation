@@ -329,7 +329,7 @@
 	font-size: 19px;
 }
 .calendar{
-	font-size: 18px;
+	font-size: 16px;
 	color: #37474F;
 }
 .calendar h2{
@@ -344,15 +344,15 @@
 	color: #fff;
 	border: 1px solid #37474F;
 	border-radius: 50%;
-	width: 50px;
-	height: 50px;
+	width: 48px;
+	height: 48px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin: 0 8px 0 10px;
 	font-family: 'SUIT-Bold';
-	font-size: 22px;
-	box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+	font-size: 20px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
 /* 우리들의 시간 */

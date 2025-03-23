@@ -47,7 +47,12 @@ const Calendar: React.FC = () => {
               day !== null && (
                 <div key={index} 
                   style={{ 
-                    padding: '8px 10px', 
+                    // padding: '8px 10px', 
+                    width: '40px',
+                    height: '40px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
                     border: (day === targetDate.getDate().toString() && month === targetDate.getMonth() + 1) ? '1px solid #37474F' : '1px dashed #ddd', 
                     borderRadius: '50%',
                     textAlign: 'center',

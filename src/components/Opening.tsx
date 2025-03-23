@@ -16,7 +16,7 @@ const Opening = () => {
       }, 11000);
     }
     if (logoElement) {
-      console.log(logoElement);
+      // console.log(logoElement);
       logoElement.style.display = 'block';
       setTimeout(() => {
         logoElement.style.display = 'none';
