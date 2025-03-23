@@ -4,7 +4,7 @@ import data from 'data.json';
 // import Host from '../Contact/Host.tsx';
 // import RoundButton from '@/components/RoundButton.tsx';
 import CalendarImage from '@/assets/images/03. 19 Calendar.jpg';
-import { Caption, Paragraph } from '@/components/Text.tsx';
+import { Caption } from '@/components/Text.tsx';
 import Calendar from '@/layout/Invitation/Calendar.tsx';
 
 const Invitation = () => {
