@@ -6,13 +6,12 @@ import { Heading1 } from '@/components/Text.tsx';
 
 const GalleryWrap = () => {
   const [isMoreView, setIsMoreView] = useState(false);
-  const galleryRef = useRef(null);
+  const galleryRef = useRef<HTMLDivElement | null>(null);
 
   const onClickImageMoreViewButton = () => {
     setIsMoreView(!isMoreView);
     
     if (galleryRef.current) {
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
       const elementPosition = galleryRef.current.getBoundingClientRect().top + window.scrollY;
       const offsetPosition = elementPosition - 120;
 
