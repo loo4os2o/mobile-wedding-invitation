@@ -15,6 +15,7 @@ import Location from '@/layout/Location/Location.tsx';
 import Main from '@/layout/Main/Main.tsx';
 import Main2 from '@/layout/Main/Main2.tsx';
 import Main3 from '@/layout/Main/Main3.tsx';
+import Main4 from '@/layout/Main/Main4.tsx';
 
 function App() {
   const ncpClientId: string = import.meta.env.VITE_APP_NAVERMAPS_CLIENT_ID as string;
@@ -111,12 +112,16 @@ function App() {
             <GalleryWrap />
           </Wrapper>
           <Wrapper>
-            <Heading1>마음 전하실 곳</Heading1>
-            <Account />
+            <Heading1>우리들의 시간</Heading1>
+            <Main4 />
           </Wrapper>
           <Wrapper>
             <Heading1>오시는 길</Heading1>
             <Location />
+          </Wrapper>
+          <Wrapper>
+            <Heading1>마음 전하실 곳</Heading1>
+            <Account />
           </Wrapper>
           <Wrapper>
             <Heading1>신랑 신부에게</Heading1>

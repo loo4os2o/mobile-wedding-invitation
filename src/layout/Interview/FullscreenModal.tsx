@@ -8,9 +8,6 @@ interface FullscreenModalProps {
 }
 
 const FullscreenModal: React.FC<FullscreenModalProps> = ({ isOpen, onClose }) => {
-
-  console.log("모달 상태:", isOpen);
-
   if (!isOpen) return null;
 
   return (

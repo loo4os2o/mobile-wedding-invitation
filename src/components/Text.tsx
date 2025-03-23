@@ -15,7 +15,9 @@ export const Heading2 = styled.p`
 `;
 
 export const PointTitle = styled.p`
-  font-family: HSSanTokki20-Regular, serif;
+  // font-family: HSSanTokki20-Regular, serif;
+  font-family: "NoonnuBasicGothicRegular";
+  font-size: 18px;
   line-height: 1;
   margin: 0;
   color: #e88ca6;
@@ -27,13 +29,13 @@ export const Paragraph = styled.p`
   white-space: pre-line;
 `;
 
-// export const Caption = styled.p<{ textAlign?: string }>`
-//   font-weight: 200;
-//   text-align: ${(props) => (props.textAlign ? props.textAlign : 'start')};
-//   white-space: pre-line;
-// `;
-
 export const Caption = styled.p<{ textAlign?: string }>`
+  font-weight: 200;
+  text-align: ${(props) => (props.textAlign ? props.textAlign : 'start')};
+  white-space: pre-line;
+`;
+
+export const Caption2 = styled.p<{ textAlign?: string }>`
   font-family: "NEXON Lv1 Gothic OTF", serif;
   font-weight: 400;
   font-size: 18px;

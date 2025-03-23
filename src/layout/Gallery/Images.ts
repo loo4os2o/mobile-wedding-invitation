@@ -24,10 +24,10 @@ import image23 from '@/assets/images/23.jpg'
 import image24 from '@/assets/images/24.jpg'
 import image25 from '@/assets/images/25.jpg'
 import image26 from '@/assets/images/26.jpg'
-// import image27 from '@/assets/images/27.jpg'
-// import image28 from '@/assets/images/28.jpg'
-// import image29 from '@/assets/images/29.jpg'
-// import image30 from '@/assets/images/30.jpg'
+import image27 from '@/assets/images/27.jpg'
+import image28 from '@/assets/images/28.jpg'
+import image29 from '@/assets/images/29.jpg'
+import image30 from '@/assets/images/30.jpg'
 import image31 from '@/assets/images/31.jpg'
 
 const images = [   /* 이미지 경로를 리스트로 저장 */
@@ -157,39 +157,37 @@ const images = [   /* 이미지 경로를 리스트로 저장 */
     alt: 'image25',
     source: image25,
     width: 640,
-    height: 960
+    height: 580
   },{
     alt: 'image26',
     source: image26,
     width: 640,
+    height: 580
+  },{
+    alt: 'image27',
+    source: image27,
+    width: 640,
     height: 960
-  },
-  // {
-  //   alt: 'image27',
-  //   source: image27,
-  //   width: 640,
-  //   height: 960
-  // },{
-  //   alt: 'image28',
-  //   source: image28,
-  //   width: 640,
-  //   height: 960
-  // },{
-  //   alt: 'image29',
-  //   source: image29,
-  //   width: 640,
-  //   height: 960
-  // },{
-  //   alt: 'image30',
-  //   source: image30,
-  //   width: 640,
-  //   height: 960
-  // },
-  {
+  },{
+    alt: 'image28',
+    source: image28,
+    width: 640,
+    height: 960
+  },{
+    alt: 'image29',
+    source: image29,
+    width: 640,
+    height: 960
+  },{
+    alt: 'image30',
+    source: image30,
+    width: 640,
+    height: 580
+  },{
     alt: 'image31',
     source: image31,
     width: 640,
-    height: 960
+    height: 580
   },
 ];
 

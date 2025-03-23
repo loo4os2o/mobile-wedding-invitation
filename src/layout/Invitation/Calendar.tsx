@@ -28,7 +28,7 @@ const Calendar: React.FC = () => {
 
     return (
       <div className='calendar'>
-        <h1>{year}년 {month}월 달력</h1>
+        <h1>{year}년 {month}월</h1>
         <div style={{ 
           display: 'grid', 
           gridTemplateColumns: 'repeat(7, 1fr)', 

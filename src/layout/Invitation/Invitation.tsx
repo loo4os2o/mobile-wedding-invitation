@@ -4,7 +4,7 @@ import data from 'data.json';
 // import Host from '../Contact/Host.tsx';
 // import RoundButton from '@/components/RoundButton.tsx';
 import CalendarImage from '@/assets/images/03. 19 Calendar.jpg';
-import { Caption } from '@/components/Text.tsx';
+import { Caption2 } from '@/components/Text.tsx';
 import Calendar from '@/layout/Invitation/Calendar.tsx';
 
 const Invitation = () => {
@@ -14,7 +14,7 @@ const Invitation = () => {
     <InvitationWrapper>
       {/* <Paragraph>{greeting.message}</Paragraph> */}
       {/* <Host /> */}
-      <Caption textAlign={'center'}>{greeting.eventDetail}</Caption>
+      <Caption2 textAlign={'center'}>{greeting.eventDetail}</Caption2>
 
       <div className='calendar-wrap'>
         <div className='img-wrap'>
