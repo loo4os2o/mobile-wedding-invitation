@@ -39,24 +39,20 @@
       "host": "신랑측",
       "accountInfo": [
         {
-          "name": "장세모",
+          "name": "백경기",
           "relation": "신랑",
           "bank": "카카오뱅크",
-          "account": "1234-56-789012",
+          "account": "3333-11-8670773",
           "kakaopayAccount": "",
-          "tossAccount": ""
+          "tossAccount": "",
+          "phone": "010-5395-7376"
         },
         {
-          "name": "장아빠",
-          "relation": "아버지",
-          "bank": "농협",
-          "account": "123-45-678901"
-        },
-        {
-          "name": "이엄마",
-          "relation": "어머니",
-          "bank": "농협",
-          "account": "123-45-678901"
+          "name": "유영미",
+          "relation": "신랑 어머니",
+          "bank": "우체국",
+          "account": "312-44702-006327",
+          "phone": "010-4472-2004"
         }
       ]
     },
@@ -64,31 +60,34 @@
       "host": "신부측",
       "accountInfo": [
         {
-          "name": "황네모",
+          "name": "고여진",
           "relation": "신부",
-          "bank": "토스뱅크",
-          "account": "1234-5678-9012",
+          "bank": "카카오뱅크",
+          "account": "3333-10-7419844",
           "kakaopayAccount": "",
-          "tossAccount": ""
+          "tossAccount": "",
+          "phone": "010-3347-9499"
         },
         {
-          "name": "황아빠",
-          "relation": "아버지",
-          "bank": "농협",
-          "account": "123-45-678901"
+          "name": "고광보",
+          "relation": "신부 아버지",
+          "bank": "카카오뱅크",
+          "account": "3333-07-8860108",
+          "phone": "010-5438-9499"
         },
         {
-          "name": "이엄마",
-          "relation": "어머니",
-          "bank": "농협",
-          "account": "123-45-678901"
+          "name": "조성란",
+          "relation": "신부 어머니",
+          "bank": "카카오뱅크",
+          "account": "3333-25-7150436",
+          "phone": "010-5437-9499"
         }
       ]
     }
   ],
   "mapInfo": {
     "address1": "호텔 선샤인 7층 씨엘드포레",
-    "address2": "도로명 주소 : 대전 동구 동서대로 1700\n지번 주소 : 대전 동구 가양동 451-3\n042-620-6500",
+    "address2": "도로명 주소 : 대전 동구 동서대로 1700\n지번 주소 : 대전 동구 가양동 451-3",
     "naverMap": "https://naver.me/GlJnpyH4",
     "kakaoMap": "https://kko.kakao.com/P16W_ecEMB",
     "lat": 36.3491637,
@@ -96,20 +95,28 @@
   },
   "locationInfo": [
     {
-      "title": "\uD83D\uDCCD 주변 정류장",
-      "desc": "\uD83D\uDC49\uD83C\uDFFB 복합터미널 | 동부네거리"
+      "title": "고속, 시외버스 이용 시",
+      "desc": "대전복합터미널 하차 후 도보 5분",
+      "desc2": "",
+      "desc3": ""
     },
     {
-      "title": "\uD83D\uDCCD 주변 버스",
-      "desc": "\uD83D\uDC49\uD83C\uDFFB (일반) 102 | 105 | 106 | 201 | 501 | 601 | 602 | 607 | 611 | 616 | 622 | 701 | 802\n\uD83D\uDC49\uD83C\uDFFB (급행) 2번\n\uD83D\uDC49\uD83C\uDFFB (농어촌) 607(비래동종점-비래동종점)"
+      "title": "시내버스 이용 시",
+      "desc": "(일반) 102 | 105 | 106 | 201 | 501 | 601 | 602 | 607 | 611 | 616 | 622 | 701 | 802",
+      "desc2": "(급행) 2번",
+      "desc3": "(농어촌) 607(비래동종점-비래동종점)"
     },
     {
-      "title": "\uD83D\uDCCD 승용차 이용시",
-      "desc": "\uD83D\uDC49\uD83C\uDFFB 고속도로 이용 : 대전 IC- 대전 TG- 직진 - 대전 고속버스터미널 앞 U턴 후 우측"
+      "title": "기차 이용 시",
+      "desc": "대전역 (버스로 10분 내외)",
+      "desc2": "서대전역(차로 20분 내외)",
+      "desc3": ""
     },
     {
-      "title": "\uD83D\uDCCD 주차안내",
-      "desc": "\uD83D\uDC49\uD83C\uDFFB 건물 내 3-5층 2시간 무료주차\n(안내데스크에서 주차권 수령) \n또는 호텔 정문 50m 직진 시 주차타워 \n또는 750대 그리고 건물 옆 설치된 주차타워를 통해 대전 최대의 주차공간을 확보"
+      "title": "승용차 이용 시",
+      "desc": "대전 씨엘드포레 검색",
+      "desc2": "식장 옆 주차타워 또는 식장 뒷편 옥외주차장\n(주차는 안내요원의 안내에 따라주세요)",
+      "desc3": ""
     }
   ],
   "emojis": [

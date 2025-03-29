@@ -51,6 +51,8 @@ export interface IMapInfo {
 export interface ILocationInfo {
   title: string;
   desc: string;
+  desc2: string;
+  desc3: string;
 }
 
 export interface ImportMetaEnv {

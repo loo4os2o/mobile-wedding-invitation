@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { NavermapsProvider } from 'react-naver-maps';
 import Opening from '@/components/Opening';
+// import Tabs from '@/components/Tabs';
+import Tabs from '@/components/Tabs';
 import { Heading1 } from '@/components/Text.tsx';
 import Wrapper from '@/components/Wrapper.tsx';
 // import useScrollFadeIn from '@/hooks/useScrollFadeIn.ts';
@@ -8,7 +10,7 @@ import Account from '@/layout/Account/Account.tsx';
 import Container from '@/layout/Container.tsx';
 import FloatingBar from '@/layout/FloatingBar/FloatingBar.tsx';
 import GalleryWrap from '@/layout/Gallery/GalleryWrap.tsx';
-import Guestbook from '@/layout/Guestbook/Guestbook.tsx';
+// import Guestbook from '@/layout/Guestbook/Guestbook.tsx';
 import Interview from '@/layout/Interview/Interview.tsx';
 import Invitation from '@/layout/Invitation/Invitation.tsx';
 import Location from '@/layout/Location/Location.tsx';
@@ -116,6 +118,9 @@ function App() {
             <Main4 />
           </Wrapper>
           <Wrapper>
+            <Tabs />
+          </Wrapper>
+          <Wrapper>
             <Heading1>오시는 길</Heading1>
             <Location />
           </Wrapper>
@@ -123,9 +128,9 @@ function App() {
             <Heading1>마음 전하실 곳</Heading1>
             <Account />
           </Wrapper>
-          <Wrapper>
-            <Heading1>신랑 신부에게</Heading1>
-            <Guestbook />
+          <Wrapper style={{height: "200px"}}>
+            <Heading1>함께한 시간</Heading1>
+            {/* <Guestbook /> */}
           </Wrapper>
           <FloatingBar isVisible={isVisible} />
         </Container>

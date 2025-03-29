@@ -10,6 +10,7 @@ interface IAccountProps {
   account: string;
   kakaopayAccount?: string;
   tossAccount?: string;
+  phone?: string;
 }
 const AccountWrap = ({
   name,
@@ -18,7 +19,13 @@ const AccountWrap = ({
   account,
   kakaopayAccount,
   tossAccount,
+  phone,
 }: IAccountProps) => {
+
+  const makeCall = () => {
+    window.location.href = `tel:${phone}`;
+  };
+
   const handleCopy = () => {
     navigator.clipboard.writeText(account).then(
       () => {
@@ -34,7 +41,13 @@ const AccountWrap = ({
     <Wrapper>
       <Info>
         <Relation>{relation}</Relation>
-        <Name>{name}</Name>
+        <div className='flex-row'>
+          <Name>{name}</Name>
+          <div className='phone pl-6'>
+            <div onClick={makeCall} style={{ cursor: 'pointer'}}> 📞</div>
+            <input type='tel' value={phone} style={{display: "none"}} readOnly />
+          </div>
+        </div>
       </Info>
       <Details>
         <AccountInfo>
