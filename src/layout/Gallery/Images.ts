@@ -157,12 +157,12 @@ const images = [   /* 이미지 경로를 리스트로 저장 */
     alt: 'image25',
     source: image25,
     width: 640,
-    height: 580
+    height: 500
   },{
     alt: 'image26',
     source: image26,
     width: 640,
-    height: 580
+    height: 500
   },
   {
     alt: 'image27',
@@ -183,13 +183,13 @@ const images = [   /* 이미지 경로를 리스트로 저장 */
     alt: 'image30',
     source: image30,
     width: 640,
-    height: 580
+    height: 500
   },
   {
     alt: 'image31',
     source: image31,
     width: 640,
-    height: 580
+    height: 500
   },
 ];
 

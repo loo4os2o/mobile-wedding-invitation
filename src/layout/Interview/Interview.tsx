@@ -1,31 +1,24 @@
-import { useState } from 'react';
 import styled from '@emotion/styled';
 import RoundButton from '@/components/RoundButton.tsx';
-import FullscreenModal from '@/layout/Interview/FullscreenModal.tsx';
 
-const Interview = () => {
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
+interface InterviewProps {
+  openModal: () => void; 
+}
 
-  const [isModalOpen, setModalOpen] = useState<boolean>(false);
-  const openModal = () => {
-    setModalOpen(true);
-  };
-  
-  const closeModal = () => {
-    setModalOpen(false);
-  };
+// eslint-disable-next-line react/prop-types
+const Interview: React.FC<InterviewProps> = ({ openModal }) => {
 
   return (
-    <InterviewWrapper>
-
-      <div className='pt-30 pb-30'>
-        <RoundButton onClick={openModal}>
-          신랑 신부 인터뷰 읽어보기
-        </RoundButton>
-      </div>
-
-      <FullscreenModal isOpen={isModalOpen} onClose={closeModal} />
-
-    </InterviewWrapper>
+    <>
+      <InterviewWrapper>
+        <div className='pt-30 pb-30'>
+          <RoundButton onClick={openModal}>
+            신랑 신부 인터뷰 읽어보기
+          </RoundButton>
+        </div>
+      </InterviewWrapper>
+    </>
   );
 };
 

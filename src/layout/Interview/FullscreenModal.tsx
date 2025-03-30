@@ -1,4 +1,5 @@
 import React from 'react';
+// import styled from '@emotion/styled';
 import '@/components/opening.css';
 import close from '@/assets/icons/icon-close.png';
 
@@ -8,10 +9,11 @@ interface FullscreenModalProps {
 }
 
 const FullscreenModal: React.FC<FullscreenModalProps> = ({ isOpen, onClose }) => {
+  
   if (!isOpen) return null;
 
   return (
-    <div className="modal-overlay" onClick={onClose}>
+    <div className="modal-overlay">
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <div className='modal-header'>
           <div className='title'>신랑 신부 인터뷰</div>
