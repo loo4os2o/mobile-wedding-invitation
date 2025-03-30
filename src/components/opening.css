@@ -540,18 +540,22 @@
    4px 4px 5px 0px #0001;
   transition: all 0.3s ease;
 }
-.bgm-btn button > span{
-	padding: 0 0 2px 5px;
-}
 .bgm-btn button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	transform: translateY(-2px);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 .bgm-btn button:active {
-  transform: translateY(0);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	transform: translateY(0);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-.bgm-btn button .pause{
-	font-size: 22px;
-	padding: 0 0 2px 3px;
+.bgm-btn button > span{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bgm-btn img{
+	width: 26px;
+}
+.bgm-btn .pause{
+	padding-left: 3px;
 }

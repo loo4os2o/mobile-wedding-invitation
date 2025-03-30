@@ -1,4 +1,6 @@
 import React, { useRef, useState } from 'react';
+import Play from "@/assets/icons/play.png";
+import Stop from "@/assets/icons/stop.png";
 import BGM from "@/assets/video/bgm.mp3";
 
 const BackgroundMusic: React.FC = () => {
@@ -30,9 +32,17 @@ const BackgroundMusic: React.FC = () => {
         <source src={BGM} type="audio/mpeg" />
       </audio>
       {!isPlaying ? (
-        <button onClick={handlePlay}><span>🔊</span></button>
+        <button onClick={handlePlay}>
+          <span>
+            <img src={Play} alt='재생' />
+          </span>
+        </button>
       ) : (
-        <button onClick={handlePause}><span className='pause'>🔇</span></button>
+        <button onClick={handlePause}>
+          <span className='pause'>
+            <img src={Stop} alt='정지' />
+          </span>
+        </button>
       )}
     </div>
   );
