@@ -1,17 +1,15 @@
-// import styled from '@emotion/styled';
-// import data from 'data.json';
 import '@/components/opening.css';
 import bride from '@/assets/images/02. 12 BGH_0479-1.jpg';
 import groom from '@/assets/images/02. 16 BGH_0616-3.jpg';
 
 const Main3 = () => {
-  // const { greeting } = data;
-
-  // const phoneNumber = '010-3347-9499';
-  const phoneNumber = '010-9614-8188';
+  
+  const phoneBack = '010-5395-7376';
+  const phoneGo = '010-3347-9499';
 
   const makeCall = () => {
-      window.location.href = `tel:${phoneNumber}`;
+      window.location.href = `tel:${phoneBack}`;
+      window.location.href = `tel:${phoneGo}`;
   };
 
   return (
@@ -24,7 +22,7 @@ const Main3 = () => {
           <span className='sky'>신랑</span> 백경기
           <div className='phone'>
             <div onClick={makeCall} style={{ cursor: 'pointer' }}>📞</div>
-            <input type='tel' value={phoneNumber} style={{display: "none"}} readOnly />
+            <input type='tel' value={phoneBack} style={{display: "none"}} readOnly />
           </div>
         </div>
 
@@ -44,7 +42,7 @@ const Main3 = () => {
           <span className='pink'>신부</span> 고여진
           <div className='phone'>
             <div onClick={makeCall} style={{ cursor: 'pointer' }}>📞</div>
-            <input type='tel' value={phoneNumber} style={{display: "none"}} readOnly />
+            <input type='tel' value={phoneGo} style={{display: "none"}} readOnly />
           </div>
         </div>
 

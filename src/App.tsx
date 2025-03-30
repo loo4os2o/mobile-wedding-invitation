@@ -69,9 +69,7 @@ function App() {
 
       <BackgroundMusic />
 
-      {/* <Wrapper padding="12px 0"> */}
-        <Opening />
-      {/* </Wrapper> */}
+      <Opening />
 
       {/* 모달 */}
       <FullscreenModal isOpen={isModalOpen} onClose={closeModal} />
