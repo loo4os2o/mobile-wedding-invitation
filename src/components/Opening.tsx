@@ -93,7 +93,7 @@ const Opening = () => {
         1: { width: "0px", transform: { translate: "100px", scaleX: 0, }, opacity: 0, },
         options: { delay: 1, },
       }),
-      } as Record<string, any>, {
+      } as Record<string, unknown>, {
       easing: "ease-out",
       selector: true,
       iterationCount: "infinite",
@@ -140,7 +140,7 @@ const Opening = () => {
           <div className="d-back back2"></div>
           <span>W</span>
         </div>
-        <div className="character a"><span>e'</span></div>
+        <div className="character a"><span>e’</span></div>
         <div className="character y"><span>r</span></div>
         <div className="character b"><span>e</span></div>
         <div className="character b"><span></span></div>

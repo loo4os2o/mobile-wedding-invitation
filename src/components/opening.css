@@ -5,23 +5,6 @@
   to { opacity: 0; }
 }
 
-/* @keyframes scaleAnimation {
-  0% {
-      transform: scale(1.2);
-  }
-  50% {
-      transform: scale(1);
-  }
-  100% {
-      transform: scale(1);
-  }
-}
-
-.main-image{
-  animation: scaleAnimation 16s ease-in-out infinite;
-  animation-delay: 6s;
-} */
-
 #opening {
   /* 10초 동안 서서히 사라짐 */
   animation: fadeOut 6s forwards;
@@ -132,10 +115,10 @@
 	font-size: 40px;
 	font-weight: 300;
 	z-index: 2;
+	color: #333;
 }
 .character.d {
 	transform-origin: 0%;
-	/* background: #333; */
 	color: white;
 	width: 50px;
 }
@@ -152,7 +135,9 @@
 .character .back2 {
 	bottom: 0;
 }
-
+.character.d > span{
+	color: #fff;
+}
 
 /* 공통 */
 .flex-row{display: flex;}
@@ -196,7 +181,6 @@
 	row-gap: 20px;
 }
 .contact-wrap .box{
-	/* border: 1px solid red; */
 	flex: 1;
 	height: 100%;
 	padding-bottom: 20px;
@@ -486,7 +470,6 @@
 	width: 130px;
 }
 
-
 /* 마음전하실 곳 */
 .acc-comment{
 	/* font-family: "Gyeonggi_Batang_Regular"; */
@@ -495,4 +478,20 @@
 }
 .acc-comment:nth-child(2){
 	margin: 20px 0 30px 0;
+}
+
+/* 함께한 시간 */
+.d-day{
+	width: 100%;
+}
+.d-day h1{
+	font-family: "Gyeonggi_Batang_Regular";
+	font-size: 18px;
+	color: #666;
+	padding: 10px 0 30px 0;
+}
+.d-day > .img-wrap{
+	width: 100%;
+	height: 580px;
+	border-radius: 130px 130px 0 0;
 }
