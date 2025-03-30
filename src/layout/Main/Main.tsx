@@ -45,4 +45,5 @@ const SubTitle = styled.p`
   white-space: pre-line;
 
   padding: 30px 30px 0 30px;
+  margin-bottom: 0;
 `;

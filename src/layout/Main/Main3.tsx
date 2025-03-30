@@ -7,9 +7,12 @@ const Main3 = () => {
   const phoneBack = '010-5395-7376';
   const phoneGo = '010-3347-9499';
 
-  const makeCall = () => {
-      window.location.href = `tel:${phoneBack}`;
-      window.location.href = `tel:${phoneGo}`;
+  const makeCallBack = () => {
+    window.location.href = `tel:${phoneBack}`;
+  };
+
+  const makeCallGo = () => {
+    window.location.href = `tel:${phoneGo}`;
   };
 
   return (
@@ -21,7 +24,7 @@ const Main3 = () => {
         <div className='contact'>
           <span className='sky'>신랑</span> 백경기
           <div className='phone'>
-            <div onClick={makeCall} style={{ cursor: 'pointer' }}>📞</div>
+            <div onClick={makeCallBack} style={{ cursor: 'pointer' }}>📞</div>
             <input type='tel' value={phoneBack} style={{display: "none"}} readOnly />
           </div>
         </div>
@@ -41,7 +44,7 @@ const Main3 = () => {
         <div className='contact'>
           <span className='pink'>신부</span> 고여진
           <div className='phone'>
-            <div onClick={makeCall} style={{ cursor: 'pointer' }}>📞</div>
+            <div onClick={makeCallGo} style={{ cursor: 'pointer' }}>📞</div>
             <input type='tel' value={phoneGo} style={{display: "none"}} readOnly />
           </div>
         </div>
