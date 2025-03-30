@@ -35,14 +35,14 @@ export default Main2;
 
 const MainTitle = styled.p`
   font-family: HSSanTokki20-Regular, serif;
-  font-size: 2rem;
+  font-size: 24px;
   color: #2F2120;
   line-height: 120%;
   white-space: pre-line;
 `;
 
 const SubTitle = styled.p`
-  font-size: 1.1rem;
+  font-size: 14px;
   color: #2F2120;
   line-height: 160%;
   white-space: pre-line;

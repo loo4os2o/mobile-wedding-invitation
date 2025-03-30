@@ -209,7 +209,7 @@
 }
 .contact-wrap .info,
 .contact-wrap .etc{
-	font-size: 17px;
+	font-size: 16px;
 	padding-top: 20px;
 }
 .contact-wrap .info{
@@ -396,7 +396,10 @@
 }
 .history-wrap .title{
 	font-family: "SUIT-Bold";
-	font-size: 18px;
+	font-size: 16px;
+}
+.history-wrap .title p{
+	font-size: 14px;
 }
 
 /* 탭 */

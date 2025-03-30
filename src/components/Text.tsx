@@ -39,7 +39,7 @@ export const Caption = styled.p<{ textAlign?: string }>`
 export const Caption2 = styled.p<{ textAlign?: string }>`
   font-family: "NEXON Lv1 Gothic OTF", serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 200%;
   color: #4f4f4f;
   text-align: ${(props) => (props.textAlign ? props.textAlign : 'start')};

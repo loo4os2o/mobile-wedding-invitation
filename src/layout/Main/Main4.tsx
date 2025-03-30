@@ -102,35 +102,3 @@ const Main4 = () => {
 };
 
 export default Main4;
-
-// const Image = styled.img`
-//   width: 100%;
-//   object-fit: cover;
-// `;
-
-// const MainTitle = styled.p`
-//   font-family: HSSanTokki20-Regular, serif;
-//   font-size: 2rem;
-//   color: #2F2120;
-//   line-height: 120%;
-//   white-space: pre-line;
-// `;
-
-// const SubTitle = styled.p`
-//   font-size: 1.1rem;
-//   color: #2F2120;
-//   line-height: 160%;
-//   white-space: pre-line;
-//   padding: 30px 20px;
-//   text-align: left;
-// `;
-
-// const PointOrange = styled.span`
-//   background: orange;
-//   padding: 0 4px;
-// `;
-
-// const PointSky = styled.span`
-//   background: skyblue;
-//   padding: 0 4px;
-// `;

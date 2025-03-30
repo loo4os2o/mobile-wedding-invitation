@@ -39,7 +39,7 @@ const MainImg = styled.img`
 // `;
 
 const SubTitle = styled.p`
-  font-size: 1.1rem;
+  font-size: 14px;
   color: #2F2120;
   line-height: 140%;
   white-space: pre-line;
