@@ -18,7 +18,7 @@ const Main4 = () => {
         <div className='left'>
           <div>
             <div className='title'>첫만남</div>
-            <p>28살, 29살이던<br/> 2030년 10월에<br/>  처음 만나 12월 19일<br/> 사귀기 시작했어요😍</p>
+            <p>28살, 29살이던<br/> 2020년 10월에<br/>  처음 만나 12월 19일<br/> 사귀기 시작했어요😍</p>
           </div>
         </div>
         <div className='right'>
