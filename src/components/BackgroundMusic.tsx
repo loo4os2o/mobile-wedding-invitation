@@ -8,7 +8,6 @@ const BackgroundMusic: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState(false);
 
   const handlePlay = () => {
-    console.log("Play button clicked"); // 버튼 클릭 확인
     if (audioRef.current) {
       audioRef.current.play().then(() => {
         setIsPlaying(true);
@@ -19,7 +18,6 @@ const BackgroundMusic: React.FC = () => {
   };
 
   const handlePause = () => {
-    console.log("Pause button clicked"); // 버튼 클릭 확인
     if (audioRef.current) {
       audioRef.current.pause();
       setIsPlaying(false);
@@ -28,7 +26,12 @@ const BackgroundMusic: React.FC = () => {
 
   return (
     <div className='bgm-btn'>
-      <audio ref={audioRef} loop>
+      <audio 
+        ref={audioRef}
+        loop
+        onPlay={() => setIsPlaying(true)} 
+        onPause={() => setIsPlaying(false)}
+      >
         <source src={BGM} type="audio/mpeg" />
       </audio>
       {!isPlaying ? (
