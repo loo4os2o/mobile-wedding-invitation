@@ -42,7 +42,7 @@ const CoupleDay: React.FC = () => {
           <img src={LastPhoto} alt="마지막 사진" />
         </div>
 
-        <h2>행복하게 잘 살겠습니다👩‍❤️‍👨</h2>
+        <h2>행복하게 잘 살겠습니다 👩‍❤️‍👨</h2>
       </div>
     );
 };
