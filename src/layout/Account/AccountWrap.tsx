@@ -75,6 +75,7 @@ const AccountWrap = ({
 
 const Wrapper = styled.div`
   font-family: 'SUITE-Regular';
+  font-size: 16px;
   padding: 10px 0;
   border-bottom: 1px solid #dfdfdf;
   &:last-of-type {
@@ -89,14 +90,14 @@ const Info = styled.div`
   height: inherit;
   display: flex;
   align-items: center;
-  gap: 5px;
-  margin: 5px 0;
+  gap: 8px;
+  margin: 5px 0 10px 0;
 `;
 const Relation = styled.span`
   color: #44484d;
 `;
 const Name = styled.span`
-  font-size: 1rem
+  font-size: 18px;
 `;
 
 const Details = styled.div`

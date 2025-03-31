@@ -11,7 +11,7 @@ import image10 from '@/assets/images/10.jpg'
 import image11 from '@/assets/images/11.jpg'
 import image12 from '@/assets/images/12.jpg'
 import image13 from '@/assets/images/13.jpg'
-import image14 from '@/assets/images/14.jpg'
+// import image14 from '@/assets/images/14.jpg'
 import image15 from '@/assets/images/15.jpg'
 import image16 from '@/assets/images/16.jpg'
 import image17 from '@/assets/images/17.jpg'
@@ -98,12 +98,14 @@ const images = [   /* 이미지 경로를 리스트로 저장 */
     source: image13,
     width: 640,
     height: 960
-  },{
-    alt: 'image14',
-    source: image14,
-    width: 640,
-    height: 960
-  },{
+  },
+  // {
+  //   alt: 'image14',
+  //   source: image14,
+  //   width: 640,
+  //   height: 960
+  // },
+  {
     alt: 'image15',
     source: image15,
     width: 640,
@@ -157,28 +159,28 @@ const images = [   /* 이미지 경로를 리스트로 저장 */
     alt: 'image25',
     source: image25,
     width: 640,
-    height: 500
+    height: 427
   },{
     alt: 'image26',
     source: image26,
     width: 640,
-    height: 500
+    height: 427
   },
   {
     alt: 'image27',
     source: image27,
     width: 640,
-    height: 960
+    height: 864
   },{
     alt: 'image28',
     source: image28,
     width: 640,
-    height: 960
+    height: 864
   },{
     alt: 'image29',
     source: image29,
     width: 640,
-    height: 960
+    height: 864
   },{
     alt: 'image30',
     source: image30,

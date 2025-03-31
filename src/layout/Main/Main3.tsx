@@ -36,7 +36,7 @@ const Main3 = () => {
         </div>
 
         <div className='etc pl-6 gray-6'>한결같은 남편이 <br/>되겠습니다.</div>
-        <div className='etc pl-6'>백남용ㆍ유영미 의 차남</div>
+        <div className='etc pl-6 flower'><span>백남용ㆍ유영미 의 차남</span></div>
       </div>
       <div className='box'>
         <img src={bride} alt='신부 고여진 연락처' />

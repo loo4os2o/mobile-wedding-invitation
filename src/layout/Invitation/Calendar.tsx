@@ -33,8 +33,8 @@ const Calendar: React.FC = () => {
           display: 'grid', 
           gridTemplateColumns: 'repeat(7, 1fr)', 
           gap: '10px',
-          borderTop: '2px solid #37474F',
-          borderBottom: '2px solid #37474F',
+          borderTop: '2px solid #152d56',
+          borderBottom: '2px solid #152d56',
           padding: '20px 0',
         }}>
             {['일', '월', '화', '수', '목', '금', '토'].map((day) => (
@@ -53,11 +53,11 @@ const Calendar: React.FC = () => {
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    border: (day === targetDate.getDate().toString() && month === targetDate.getMonth() + 1) ? '1px solid #37474F' : '1px dashed #ddd', 
+                    border: (day === targetDate.getDate().toString() && month === targetDate.getMonth() + 1) ? '1px solid #fe87b1' : '1px dashed #ddd', 
                     borderRadius: '50%',
                     textAlign: 'center',
-                    backgroundColor: (day === targetDate.getDate().toString() && month === targetDate.getMonth() + 1) ? '#37474F' : 'transparent',
-                    color: (day === targetDate.getDate().toString() && month === targetDate.getMonth() + 1) ? 'white' : '#37474F',
+                    backgroundColor: (day === targetDate.getDate().toString() && month === targetDate.getMonth() + 1) ? '#fe87b1' : 'transparent',
+                    color: (day === targetDate.getDate().toString() && month === targetDate.getMonth() + 1) ? 'white' : '#152d56',
                     fontFamily: (day === targetDate.getDate().toString() && month === targetDate.getMonth() + 1) ? "SUIT-Bold" : "",
                   }}>
                     {day}

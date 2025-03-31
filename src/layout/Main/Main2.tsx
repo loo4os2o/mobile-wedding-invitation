@@ -34,15 +34,17 @@ const Main2 = () => {
 export default Main2;
 
 const MainTitle = styled.p`
-  font-family: HSSanTokki20-Regular, serif;
+  // font-family: HSSanTokki20-Regular, serif;
+  font-family: OTWelcomeRA, serif;
   font-size: 24px;
   color: #2F2120;
-  line-height: 120%;
+  line-height: 150%;
   white-space: pre-line;
+  letter-spacing: 2px; 
 `;
 
 const SubTitle = styled.p`
-  font-size: 14px;
+  font-size: 16px;
   color: #2F2120;
   line-height: 160%;
   white-space: pre-line;

@@ -41,6 +41,8 @@ const CoupleDay: React.FC = () => {
         <div className='img-wrap'>
           <img src={LastPhoto} alt="마지막 사진" />
         </div>
+
+        <h2>행복하게 잘 살겠습니다👩‍❤️‍👨</h2>
       </div>
     );
 };

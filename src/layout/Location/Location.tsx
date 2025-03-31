@@ -12,6 +12,8 @@ const Location = () => {
 
   const makeCall = () => {
     window.location.href = `tel:${tel}`;
+  };
+  const makeCal2 = () => {
     window.location.href = `tel:${tel2}`;
   };
 
@@ -25,7 +27,7 @@ const Location = () => {
           <input type='tel' value={tel2} style={{display: "none"}} readOnly />
         </div>
         <div className='phone'>
-          <div onClick={makeCall} style={{ cursor: 'pointer' }}>042-620-6526 📞</div>
+          <div onClick={makeCal2} style={{ cursor: 'pointer' }}>042-620-6526 📞</div>
           <input type='tel' value={tel} style={{display: "none"}} readOnly />
         </div>
       </Caption>

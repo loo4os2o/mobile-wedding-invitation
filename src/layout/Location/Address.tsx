@@ -52,7 +52,7 @@ const Address = () => {
         <div>환경보호 동참을 위해<br/> 화환은 정중히 사양하겠습니다.</div>
       </div>
       <div className='thanks-wrap'>
-        <img src={Thanks} alt='감사합니다 이미지' className='thanks' />(꾸뻑)
+        <img src={Thanks} alt='감사합니다 이미지' className='thanks' />
       </div>
     </>
   );

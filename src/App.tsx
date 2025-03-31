@@ -48,9 +48,10 @@ function App() {
 
   const [showMainContent, setShowMainContent] = useState(false);
   useEffect(() => {
+    // 6초 후에 실행
     const timer = setTimeout(() => {
       setShowMainContent(true);
-    }, 10000); // 10초 후에 실행
+    }, 6000);
 
     return () => clearTimeout(timer); // 컴포넌트 언마운트 시 타이머 정리
   }, []);
