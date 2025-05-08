@@ -30,7 +30,150 @@ import image29 from '@/assets/images/29.jpg'
 import image30 from '@/assets/images/30.jpg'
 import image31 from '@/assets/images/31.jpg'
 
+import image32 from '@/assets/images/32.jpg'
+import image33 from '@/assets/images/33.jpg'
+import image34 from '@/assets/images/34.jpg'
+import image35 from '@/assets/images/35.jpg'
+import image36 from '@/assets/images/36.jpg'
+import image37 from '@/assets/images/37.jpg'
+import image38 from '@/assets/images/38.jpg'
+import image39 from '@/assets/images/39.jpg'
+import image40 from '@/assets/images/40.jpg'
+import image41 from '@/assets/images/41.jpg'
+import image42 from '@/assets/images/42.jpg'
+import image43 from '@/assets/images/43.jpg'
+import image44 from '@/assets/images/44.jpg'
+import image45 from '@/assets/images/45.jpg'
+import image46 from '@/assets/images/46.jpg'
+import image47 from '@/assets/images/47.jpg'
+import image48 from '@/assets/images/48.jpg'
+import image49 from '@/assets/images/49.jpg'
+import image50 from '@/assets/images/50.jpg'
+import image51 from '@/assets/images/51.jpg'
+
 const images = [   /* 이미지 경로를 리스트로 저장 */
+  {
+    alt: 'image32',
+    source: image32,
+    width: 640,
+    height: 853
+  },
+  {
+    alt: 'image33',
+    source: image33,
+    width: 640,
+    height: 862
+  },
+  {
+    alt: 'image34',
+    source: image34,
+    width: 640,
+    height: 861
+  },
+  {
+    alt: 'image35',
+    source: image35,
+    width: 640,
+    height: 853
+  },
+  {
+    alt: 'image36',
+    source: image36,
+    width: 640,
+    height: 854
+  },
+  {
+    alt: 'image37',
+    source: image37,
+    width: 640,
+    height: 854
+  },
+  {
+    alt: 'image38',
+    source: image38,
+    width: 640,
+    height: 862
+  },
+  {
+    alt: 'image39',
+    source: image39,
+    width: 640,
+    height: 860
+  },
+  {
+    alt: 'image40',
+    source: image40,
+    width: 640,
+    height: 858
+  },
+  {
+    alt: 'image41',
+    source: image41,
+    width: 640,
+    height: 853
+  },
+  {
+    alt: 'image42',
+    source: image42,
+    width: 640,
+    height: 864
+  },
+  {
+    alt: 'image43',
+    source: image43,
+    width: 640,
+    height: 853
+  },
+  {
+    alt: 'image44',
+    source: image44,
+    width: 640,
+    height: 853
+  },
+  {
+    alt: 'image45',
+    source: image45,
+    width: 640,
+    height: 853
+  },
+  {
+    alt: 'image46',
+    source: image46,
+    width: 640,
+    height: 1129
+  },
+  {
+    alt: 'image47',
+    source: image47,
+    width: 640,
+    height: 861
+  },
+  {
+    alt: 'image48',
+    source: image48,
+    width: 640,
+    height: 853
+  },
+  {
+    alt: 'image49',
+    source: image49,
+    width: 640,
+    height: 859
+  },
+  {
+    alt: 'image50',
+    source: image50,
+    width: 640,
+    height: 853
+  },
+  {
+    alt: 'image51',
+    source: image51,
+    width: 640,
+    height: 853
+  },
+
+
   {
     alt: 'image01',
     source: image01,
